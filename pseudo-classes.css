@@ -71,3 +71,30 @@ article {
     border: 5px dashed gray;
     background-color: royalblue;
 }
+
+/* Create a nav bar out of the unordered list elements */
+
+.top {
+    border: 1px solid black;
+}
+.top li {
+    border: 1px solid black;
+}
+
+/* When the user hovers over one of the links, the color of the text should change. */
+
+.top li:first-of-type:hover {
+    color: red;
+}
+
+/* When the user hovers over one of the links, the background color of the element that contains the link should change. */
+
+.top li:nth-of-type(even):hover {
+    background-color: orange;
+}
+
+/* When the user clicks on one of the links, the element that contains the link should grow in size by 5px on the left and right. */
+
+.top li:last-of-type:active {
+    padding: 0 5px;
+}
